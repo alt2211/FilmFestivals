@@ -1,0 +1,378 @@
+/* inter-regular - cyrillic_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v13-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color:black;
+}
+
+.wrapper{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.header__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 33.5px;
+    padding-bottom: 39px;
+}
+
+.header__list{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.header__item{
+    margin-right: 50px;
+}
+.header__item:last-child{
+    margin-right: 0px;
+}
+
+.header__link{
+    /* color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; 
+    text-decoration: none;
+
+    display: inline-flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    border-radius: 12px;
+    background: #DC2121; */
+    display: flex;
+width: 295px;
+padding: 12px 16px;
+justify-content: center;
+align-items: center;
+gap: 12px;
+border-radius: 12px;
+background: #CE0F0F;
+text-decoration: none;
+color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 16.8px */
+}
+
+.header__link:hover, .header__link:focus, .header__link:active{
+    opacity: 75%;
+}
+
+.main{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.colum__name-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 925px;
+    height: 51px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #F4F4F4;
+}
+
+.column__item1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 432px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.column__item2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 152px;
+    margin-bottom: 37px;
+    margin-top: 16px;
+}
+.column__item3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-bottom: 37px;
+    margin-top: 16px;
+}
+
+.column__wrapper{
+    text-decoration: none;
+    pointer-events: none;
+    color: #8A8A94;
+}
+.festival1-general{
+    display: flex;
+    align-items: flex-start;
+}
+.festPhoto{
+    margin-right: 20px;
+    margin-top: 16px;
+}
+.line{
+    width: 925px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #EAEAEA;
+    margin-left: -105px;
+}
+.first-column{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+.festival-name{
+    margin-top: 16px;
+    color: #050505;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; 
+    margin-bottom: 4px;
+    text-decoration: none;
+}
+.festival-site{
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: #CE0F0F;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 16.8px */
+
+}
+.festival-description{
+    margin-bottom: 8px;
+    color: #8A8A94;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 16.8px */
+}
+.festival-dates{
+    margin-bottom: 16px;
+    color: #050505;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 14.4px */
+}
+
+.festival-Country{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #050505;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 19.2px */
+}
+
+.festival-City{
+    margin-bottom: 101px;
+    color: #8A8A94;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 16.8px */
+}
+
+.MoreButton{
+    display: inline-flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 12px;
+    border: 1px solid #BDBDBD;
+    color: #8A8A94;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 16.8px */
+    background: #ffffff;
+    margin-left: 389px;
+}
+
+
+.festival-deadline{
+    margin-bottom: 123px;
+    color: #050505;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 19.2px */
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filters{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 295px;
+    height: 964px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #F4F4F4;
+}
+
+.filers__name{
+    margin: 16px;
+    color: #050505;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 24px */
+}
+
+/* #myTextBox1 {
+    display: inline-flex;
+    padding: 13px 12px 12px 12px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 85px;
+    border-radius: 8px;
+    background: #FFF;
+    margin-left: 16px;
+    margin-right: 16px;
+} */
+
+.input-container {
+    position: relative;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 13px 12px 12px 12px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0px;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 12px; /* Adjust the right offset as needed */
+    width: 16px;
+    height: 16px;
+}
+
+.genre {
+    color: #8A8A94;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 19.2px */
+    margin-left: 16px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.genre__wrapper{
+    display: flex;
+    width: 263px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 4px;
+    flex-wrap: wrap;
+    margin-left: 16px;
+}
+
+.genre__item{
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #DCDCE0;
+    background: #FFF;
+}
+
+.cost{
+    display: flex;
+    width: 263px;
+    height: 44px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4px;
+    margin-left: 16px;
+}
+
+.apply{
+    display: flex;
+    width: 263px;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 16px;
+    margin-top: 24px;
+    border-radius: 8px;
+    background: #BDBDBD;
+    border: 0px solid #DCDCE0;
+
+    color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 19.2px */
+}
+
+.input-field{
+    color: #B8B8C1;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%;
+}
+
+.festPhoto{
+    border-radius: 10%;
+}

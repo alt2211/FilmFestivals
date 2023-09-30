@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>FilmFestivals</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header"> 
+        <div class="wrapper">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <a href="/" class="header__logo-link">
+                        <img src="./img/svg/FilmFestivals.svg" alt="FilmFestivals" class="header__logo-link">
+                    </a>
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a href="#!" class="header__link">Календарь номинаций
+                                <img src="./img/svg/Calendar.svg" alt="Calendar" class="header__link__img">
+                            </a>
+                            
+                        </li>
+                        <!-- <li class="header__item">
+                            <a href="#!" class="header__link">Календарь TEST</a>
+                        </li> -->
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+            <section class="colum__name-wrapper">
+                <wrapper class="column-festivalname">
+                    <div class="column__item1">
+                        <a href="#!" class="column__wrapper">Фестиваль</a>
+                    </div>
+                    <div class="festival1-general">
+                        <img src="./img/png/Photo.png" alt="Photo1" class="festPhoto">
+                        <wrapper class="first-column">
+                            <a href="#!" class="festival-name">Festival Premiers Plans d’Angers</a>
+                            <a href="#!" class="festival-site">premiersplans.org</a>
+                            <div class="festival-description">Французский фестиваль молодых кинематографистов и выпускников киношкол.</div>
+                            <div class="festival-dates">Даты фестиваля: 20 - 28 января 2024</div>
+                            <wrapper class="line"></wrapper>
+                        </wrapper>
+                    </div>
+                    <div class="festival1-general">
+                        <img src="./img/png/Photo.png" alt="Photo1" class="festPhoto">
+                        <wrapper class="first-column">
+                            <a href="#!" class="festival-name">Festival Premiers Plans d’Angers</a>
+                            <a href="#!" class="festival-site">premiersplans.org</a>
+                            <div class="festival-description">Французский фестиваль молодых кинематографистов и выпускников киношкол.</div>
+                            <div class="festival-dates">Даты фестиваля: 20 - 28 января 2024</div>
+                            <wrapper class="line"></wrapper>
+                        </wrapper>
+                    </div>
+                    <div class="festival1-general">
+                        <img src="./img/png/Photo.png" alt="Photo1" class="festPhoto">
+                        <wrapper class="first-column">
+                            <a href="#!" class="festival-name">Festival Premiers Plans d’Angers</a>
+                            <a href="#!" class="festival-site">premiersplans.org</a>
+                            <div class="festival-description">Французский фестиваль молодых кинематографистов и выпускников киношкол.</div>
+                            <div class="festival-dates">Даты фестиваля: 20 - 28 января 2024</div>
+                            <wrapper class="line"></wrapper>
+                        </wrapper>
+                    </div>
+                    <div class="festival1-general">
+                        <img src="./img/png/Photo.png" alt="Photo1" class="festPhoto">
+                        <wrapper class="first-column">
+                            <a href="#!" class="festival-name">Festival Premiers Plans d’Angers</a>
+                            <a href="#!" class="festival-site">premiersplans.org</a>
+                            <div class="festival-description">Французский фестиваль молодых кинематографистов и выпускников киношкол.</div>
+                            <div class="festival-dates">Даты фестиваля: 20 - 28 января 2024</div>
+                            <wrapper class="line"></wrapper>
+                        </wrapper>
+                    </div>
+                </wrapper>
+                <wrapper class="column-countryname">
+                    <div class="column__item2">
+                        <a href="#!" class="column__wrapper">Страна</a>
+                    </div>
+                    <div class="festival1-countryname">
+                        <div class="festival-Country">Великобритания</div>
+                        <div class="festival-City">Лондон</div>
+                    </div>
+                    <div class="festival1-countryname">
+                        <div class="festival-Country">Великобритания</div>
+                        <div class="festival-City">Лондон</div>
+                    </div>
+                    <div class="festival1-countryname">
+                        <div class="festival-Country">Великобритания</div>
+                        <div class="festival-City">Лондон</div>
+                    </div>
+                    <div class="festival1-countryname">
+                        <div class="festival-Country">Великобритания</div>
+                        <div class="festival-City">Лондон</div>
+                    </div>
+                </wrapper>
+                <wrapper class="column-deadline">
+                    <div class="column__item3">
+                        <a href="#!" class="column__wrapper">Дедлайн</a>
+                    </div>
+                    <div class="festival-deadline">29.09.2023</div>
+                    <div class="festival-deadline">29.09.2023</div>
+                    <div class="festival-deadline">29.09.2023</div>
+                    <div class="festival-deadline">29.09.2023</div>
+                </wrapper>
+                <button class="MoreButton">Показать ещё</button>
+            </section>
+        <section class="filters">
+            <text class="filers__name">Фильтры</text>
+            <!-- <input type="text" id="myTextBox1" name="myTextBox1"> 
+
+            </input> -->
+
+            <div class="input-container">
+                <input type="text" id="myTextBox1" name="myTextBox1" class="input-field" value="1732 фестиваля..."
+                onfocus="clearDefaultValue(this)" onblur="restoreDefaultValue(this)">
+                <img src="./img/svg/Search.svg" alt="Search" class="icon">
+            </div>
+            <script>
+                function clearDefaultValue(input) {
+                    if (input.value === input.defaultValue) {
+                        input.value = '';
+                    }
+                }
+
+                function restoreDefaultValue(input) {
+                    if (input.value.trim() === '') {
+                        input.value = input.defaultValue;
+                    }
+                }
+            </script>
+
+            <text class="genre">Жанр</text>
+            <ul class="genre__wrapper">
+                <li class="genre__item">
+                    <a href="#!" class="column__wrapper">Все</a>
+                </li>
+                <li class="genre__item">
+                    <a href="#!" class="column__wrapper">Фестивали</a>
+                </li>
+                <li class="genre__item">
+                    <a href="#!" class="column__wrapper">Комедии</a>
+                </li>
+                <li class="genre__item">
+                    <a href="#!" class="column__wrapper">Научная фантастика</a>
+                </li>
+            </ul>
+            <text class="genre">Стоимость участия</text>
+            <fieldset class="cost">
+                <div class="input-field2">
+                    <input type="text" id="myTextBox2" name="myTextBox2" class="input-field" value="От 0 USD" onfocus="clearDefaultValue(this)" onblur="restoreDefaultValue(this)">
+                </div>
+                <div class="input-field2">
+                    <input type="text" id="myTextBox3" name="myTextBox3" class="input-field" value="До 200 USD" onfocus="clearDefaultValue(this)" onblur="restoreDefaultValue(this)">
+                </div>
+                
+                <script>
+                    function clearDefaultValue(input) {
+                        if (input.value === input.defaultValue) {
+                            input.value = '';
+                        }
+                    }
+                
+                    function restoreDefaultValue(input) {
+                        if (input.value.trim() === '') {
+                            input.value = input.defaultValue;
+                        }
+                    }
+                </script>
+                
+            </fieldset>
+            <button class="apply">Применить</button>
+        </section>
+    </main>
+
+</body>
+</html>
